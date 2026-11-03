@@ -1,0 +1,62 @@
+{
+  "count": 5,
+  "files": [
+    {
+      "path": "01_高数极限.md",
+      "title": "高数第二章 极限与连续",
+      "tags": [
+        "课程",
+        "高数"
+      ],
+      "size_bytes": 286,
+      "line_count": 12,
+      "theme": "课程笔记"
+    },
+    {
+      "path": "02_四级听力错题.md",
+      "title": "四级听力错题整理（2026.10）",
+      "tags": [
+        "四级",
+        "考试"
+      ],
+      "size_bytes": 314,
+      "line_count": 12,
+      "theme": "作业与考试"
+    },
+    {
+      "path": "03_AI心得.md",
+      "title": "用 Claude 写 Prompt 的一点心得",
+      "tags": [
+        "ai",
+        "claude",
+        "prompt"
+      ],
+      "size_bytes": 356,
+      "line_count": 16,
+      "theme": "AI 与工具"
+    },
+    {
+      "path": "04_三下乡策划.md",
+      "title": "三下乡活动策划初稿",
+      "tags": [
+        "三下乡",
+        "志愿",
+        "活动"
+      ],
+      "size_bytes": 357,
+      "line_count": 16,
+      "theme": "活动与实践"
+    },
+    {
+      "path": "05_随笔.md",
+      "title": "关于最近情绪的一点随笔",
+      "tags": [
+        "心情",
+        "生活"
+      ],
+      "size_bytes": 221,
+      "line_count": 7,
+      "theme": "生活与心情"
+    }
+  ]
+}

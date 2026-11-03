@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>Elite 20 提交数据仪表盘 - C6A</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif; background: #f3f5f9; color: #222; line-height: 1.5; }
+  header { background: linear-gradient(135deg, #1f4e78, #2e75b6); color: #fff; padding: 18px 28px; box-shadow: 0 2px 6px rgba(0,0,0,.1); }
+  header h1 { font-size: 20px; }
+  header .sub { font-size: 12px; opacity: .85; margin-top: 4px; }
+  .container { max-width: 1280px; margin: 0 auto; padding: 20px; }
+  .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 18px; }
+  .kpi { background: #fff; border-radius: 10px; padding: 16px; box-shadow: 0 1px 3px rgba(0,0,0,.06); border-left: 4px solid #2e75b6; }
+  .kpi.green { border-color: #2e7d32; } .kpi.yellow { border-color: #f9a825; } .kpi.red { border-color: #c62828; }
+  .kpi .num { font-size: 28px; font-weight: 700; }
+  .kpi .label { font-size: 12px; color: #666; }
+  .card { background: #fff; border-radius: 10px; padding: 18px; margin-bottom: 18px; box-shadow: 0 1px 3px rgba(0,0,0,.06); }
+  .card h2 { font-size: 15px; margin-bottom: 12px; color: #1f4e78; border-left: 3px solid #2e75b6; padding-left: 8px; }
+  .filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; align-items: center; }
+  .filters label { font-size: 12px; color: #555; }
+  select, input[type=text] { padding: 6px 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 13px; background: #fff; }
+  button { padding: 6px 14px; border: none; border-radius: 6px; background: #2e75b6; color: #fff; cursor: pointer; font-size: 13px; }
+  button:hover { background: #1f4e78; }
+  button.secondary { background: #666; } button.warn { background: #c62828; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { padding: 8px 10px; border-bottom: 1px solid #eee; text-align: left; }
+  th { background: #f0f4fa; font-weight: 600; color: #333; }
+  tr:hover td { background: #fafbfd; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; }
+  .badge.complete { background: #c6efce; color: #1b5e20; }
+  .badge.partial { background: #ffeb9c; color: #7a5c00; }
+  .badge.missing { background: #ffc7ce; color: #8b0000; }
+  .heatmap { display: grid; gap: 4px; font-size: 12px; }
+  .heat-row { display: grid; grid-template-columns: 90px repeat(9, 1fr); gap: 4px; align-items: center; }
+  .heat-row.head { font-weight: 600; text-align: center; }
+  .cell { padding: 8px 4px; text-align: center; border-radius: 4px; cursor: pointer; }
+  .cell.green { background: #c6efce; } .cell.yellow { background: #ffeb9c; } .cell.red { background: #ffc7ce; } .cell.gray { background: #eee; color: #999; }
+  .cell:hover { outline: 2px solid #1f4e78; }
+  .student-link, .ch-link { color: #1f4e78; cursor: pointer; text-decoration: underline; }
+  .missing-list { color: #c62828; font-size: 12px; }
+  .modal-mask { position: fixed; inset: 0; background: rgba(0,0,0,.4); display: none; align-items: center; justify-content: center; z-index: 100; }
+  .modal { background: #fff; border-radius: 10px; width: 720px; max-height: 80vh; overflow: auto; padding: 22px; }
+  .modal h3 { margin-bottom: 12px; color: #1f4e78; }
+  .close { float: right; cursor: pointer; font-size: 18px; color: #999; }
+  .footer { font-size: 11px; color: #999; text-align: center; padding: 14px; }
+  .note { background: #fff8e1; border-left: 3px solid #f9a825; padding: 8px 12px; font-size: 12px; margin-bottom: 14px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📊 Elite 20 提交数据仪表盘</h1>
+  <div class="sub">C6A ｜ 数据更新于 <span id="gen-at"></span> ｜ 模拟数据（脚本与流程可一键切换真实数据）</div>
+</header>
+
+<div class="container">
+  <div class="note">⚠️ 当前展示为<b>模拟数据</b>（is_mock_data=true）。替换 <code>data/submissions.json</code> 后刷新页面即可接入真实提交数据，无需改代码。</div>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="num" id="kpi-students">-</div><div class="label">学生数</div></div>
+    <div class="kpi green"><div class="num" id="kpi-complete">-</div><div class="label">完整提交</div></div>
+    <div class="kpi yellow"><div class="num" id="kpi-partial">-</div><div class="label">部分提交</div></div>
+    <div class="kpi red"><div class="num" id="kpi-missing">-</div><div class="label">缺失/未交</div></div>
+  </div>
+
+  <div class="card">
+    <h2>学生 × 挑战 热力图（点击单元格查看详情）</h2>
+    <div class="heatmap" id="heatmap"></div>
+  </div>
+
+  <div class="card">
+    <h2>提交记录筛选</h2>
+    <div class="filters">
+      <label>学生：<select id="f-student"><option value="">全部</option></select></label>
+      <label>挑战：<select id="f-challenge"><option value="">全部</option></select></label>
+      <label>状态：<select id="f-status"><option value="">全部</option><option value="complete">完整</option><option value="partial">部分</option><option value="missing">缺失</option></select></label>
+      <label>关键字：<input type="text" id="f-kw" placeholder="搜索学生/备注"></label>
+      <button onclick="renderTable()">筛选</button>
+      <button class="secondary" onclick="resetFilter()">重置</button>
+      <span style="flex:1"></span>
+      <button onclick="exportJSON()">📥 导出 JSON</button>
+      <button onclick="exportCSV()">📥 导出 CSV</button>
+    </div>
+    <table id="tbl">
+      <thead><tr><th>学生</th><th>挑战</th><th>提交时间</th><th>状态</th><th>完成度</th><th>缺失项</th><th>备注</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="modal-mask" id="modal">
+  <div class="modal">
+    <span class="close" onclick="closeModal()">×</span>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<div class="footer">C6A 提交数据仪表盘 ｜ 阮依涵 ｜ 郑州西亚斯学院 软件工程 ｜ 静态 HTML+JS，零依赖，浏览器直接打开</div>
+
+<script src="data.js"></script>
+<script>
+const D = window.DASHBOARD_DATA;
+document.getElementById('gen-at').textContent = D.generated_at || '-';
+
+const records = D.records;
+const students = [...new Set(records.map(r => r.student.name))];
+const challenges = D.challenges;
+
+// KPI
+document.getElementById('kpi-students').textContent = students.length;
+document.getElementById('kpi-complete').textContent = records.filter(r=>r.status==='complete').length;
+document.getElementById('kpi-partial').textContent = records.filter(r=>r.status==='partial').length;
+document.getElementById('kpi-missing').textContent = records.filter(r=>r.status==='missing').length;
+
+// filters options
+const fs = document.getElementById('f-student'); students.forEach(s=>{const o=document.createElement('option');o.value=s;o.textContent=s;fs.appendChild(o);});
+const fc = document.getElementById('f-challenge'); challenges.forEach(c=>{const o=document.createElement('option');o.value=c.id;o.textContent=c.id;fc.appendChild(o);});
+
+// heatmap
+const idx = {}; records.forEach(r=>{idx[r.student.name+'|'+r.challenge]=r;});
+const hm = document.getElementById('heatmap');
+const head = document.createElement('div'); head.className='heat-row head';
+head.innerHTML = '<div></div>' + challenges.map(c=>`<div>${c.id}</div>`).join('');
+hm.appendChild(head);
+students.forEach(s=>{
+  const row = document.createElement('div'); row.className='heat-row';
+  let html = `<div><span class="student-link" onclick="showStudent('${s}')">${s}</span></div>`;
+  challenges.forEach(c=>{
+    const rec = idx[s+'|'+c.id];
+    if(!rec) html += `<div class="cell gray" title="未提交">—</div>`;
+    else {
+      const cls = rec.status==='complete'?'green':rec.status==='partial'?'yellow':'red';
+      const sym = rec.status==='complete'?'✅':rec.status==='partial'?'⚠️':'❌';
+      html += `<div class="cell ${cls}" onclick="showStudent('${s}','${c.id}')" title="${c.id} ${rec.status}">${sym}</div>`;
+    }
+  });
+  row.innerHTML = html;
+  hm.appendChild(row);
+});
+
+// table
+function renderTable(){
+  const s = document.getElementById('f-student').value;
+  const c = document.getElementById('f-challenge').value;
+  const st = document.getElementById('f-status').value;
+  const kw = document.getElementById('f-kw').value.trim();
+  const tbody = document.querySelector('#tbl tbody'); tbody.innerHTML='';
+  const list = records.filter(r=>
+    (!s||r.student.name===s) && (!c||r.challenge===c) && (!st||r.status===st) &&
+    (!kw||r.student.name.includes(kw)||(r.notes||'').includes(kw))
+  ).sort((a,b)=>a.submitted_at<b.submitted_at?1:-1);
+  list.forEach(r=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td><span class="student-link" onclick="showStudent('${r.student.name}')">${r.student.name}</span></td>
+      <td><span class="ch-link" onclick="showChallenge('${r.challenge}')">${r.challenge}</span></td>
+      <td>${r.submitted_at.replace('T',' ').slice(0,16)}</td>
+      <td><span class="badge ${r.status}">${r.status==='complete'?'完整':r.status==='partial'?'部分':'缺失'}</span></td>
+      <td>${Math.round(r.completeness*100)}%</td>
+      <td class="missing-list">${r.missing.join('、')||'—'}</td>
+      <td>${r.notes}</td>`;
+    tbody.appendChild(tr);
+  });
+  if(list.length===0){ tbody.innerHTML='<tr><td colspan="7" style="text-align:center;color:#999">无匹配记录</td></tr>'; }
+}
+function resetFilter(){ ['f-student','f-challenge','f-status'].forEach(id=>document.getElementById(id).value=''); document.getElementById('f-kw').value=''; renderTable(); }
+renderTable();
+
+// modal
+function showStudent(name, chId){
+  const list = records.filter(r=>r.student.name===name && (!chId||r.challenge===chId));
+  const st = list[0].student;
+  let html = `<h3>👤 ${name}（${st.major} / ${st.github}）</h3>`;
+  html += `<table><thead><tr><th>挑战</th><th>提交时间</th><th>状态</th><th>文件清单</th></tr></thead><tbody>`;
+  list.forEach(r=>{
+    const files = r.files.map(f=>`<div style="font-size:12px">${f.present?'✅':'❌'} ${f.filename}</div>`).join('');
+    html += `<tr><td><span class="ch-link" onclick="showChallenge('${r.challenge}')">${r.challenge}</span></td><td>${r.submitted_at.slice(0,16)}</td><td><span class="badge ${r.status}">${r.status}</span></td><td>${files}</td></tr>`;
+  });
+  html += `</tbody></table>`;
+  document.getElementById('modal-body').innerHTML = html;
+  document.getElementById('modal').style.display='flex';
+}
+function showChallenge(chId){
+  const ch = challenges.find(c=>c.id===chId);
+  const list = records.filter(r=>r.challenge===chId);
+  let html = `<h3>🎯 ${chId} ${ch?ch.title:''}</h3>`;
+  html += `<div style="font-size:13px;margin-bottom:10px">必填文件：${(ch?ch.required_files:[]).join('、')}</div>`;
+  html += `<table><thead><tr><th>学生</th><th>提交时间</th><th>状态</th><th>缺失项</th></tr></thead><tbody>`;
+  list.forEach(r=>{
+    html += `<tr><td><span class="student-link" onclick="showStudent('${r.student.name}')">${r.student.name}</span></td><td>${r.submitted_at.slice(0,16)}</td><td><span class="badge ${r.status}">${r.status}</span></td><td class="missing-list">${r.missing.join('、')||'—'}</td></tr>`;
+  });
+  html += `</tbody></table>`;
+  document.getElementById('modal-body').innerHTML = html;
+  document.getElementById('modal').style.display='flex';
+}
+function closeModal(){ document.getElementById('modal').style.display='none'; }
+document.getElementById('modal').addEventListener('click', e=>{ if(e.target.id==='modal') closeModal(); });
+
+// export
+function exportJSON(){
+  const blob = new Blob([JSON.stringify(D, null, 2)], {type:'application/json'});
+  const a = document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='submissions_export.json'; a.click();
+}
+function exportCSV(){
+  const head = ['学生','挑战编号','提交时间','状态','完成度','缺失项'];
+  const rows = records.map(r=>[r.student.name,r.challenge,r.submitted_at,r.status,r.completeness,r.missing.join('|')]);
+  const csv = [head, ...rows].map(x=>x.join(',')).join('\n');
+  const blob = new Blob(['\ufeff'+csv], {type:'text/csv;charset=utf-8'});
+  const a = document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='submissions_export.csv'; a.click();
+}
+</script>
+</body>
+</html>

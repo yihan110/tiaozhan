@@ -1,0 +1,83 @@
+[
+  {
+    "id": "C1A",
+    "title": "AI 工具上手与 Prompt 基础",
+    "required_files": [
+      "方案设计.md",
+      "AI日志.md",
+      "拿来说明.md"
+    ]
+  },
+  {
+    "id": "C2A",
+    "title": "个人方案设计 Proposal",
+    "required_files": [
+      "proposal.md",
+      "AI日志.md",
+      "拿来说明.md"
+    ]
+  },
+  {
+    "id": "C3A",
+    "title": "技能包 Skill 开发",
+    "required_files": [
+      "skill.md",
+      "验证报告.md",
+      "AI日志.md"
+    ]
+  },
+  {
+    "id": "C4A",
+    "title": "C4A 评审技能",
+    "required_files": [
+      "评审报告.md",
+      "AI日志.md",
+      "拿来说明.md"
+    ]
+  },
+  {
+    "id": "C4B",
+    "title": "文章写作与排版",
+    "required_files": [
+      "article.html",
+      "AI日志.md"
+    ]
+  },
+  {
+    "id": "C4C",
+    "title": "作业自动求解与排版",
+    "required_files": [
+      "skill.md",
+      "output.pdf",
+      "验证报告.md",
+      "AI日志.md"
+    ]
+  },
+  {
+    "id": "C4D",
+    "title": "数据可视化作品",
+    "required_files": [
+      "dashboard.html",
+      "AI日志.md",
+      "拿来说明.md"
+    ]
+  },
+  {
+    "id": "C5A",
+    "title": "项目复盘与 AAR",
+    "required_files": [
+      "AAR.md",
+      "AI日志.md"
+    ]
+  },
+  {
+    "id": "C6A",
+    "title": "提交数据仪表盘",
+    "required_files": [
+      "report.xlsx",
+      "dashboard/",
+      "AI日志.md",
+      "拿来说明.md"
+    ]
+  }
+]

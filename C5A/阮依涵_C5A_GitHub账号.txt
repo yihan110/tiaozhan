@@ -1,0 +1,11 @@
+GitHub 账号信息（由阮依涵本人填写）
+==================================
+
+GitHub 用户名：yihan110
+GitHub 主页链接：https://github.com/yihan110
+个人仓库链接：https://github.com/yihan110/tiaozhan
+仓库分析对象：https://github.com/neolaf2/neoskills（直接读取上游仓库，未单独 fork）
+
+填写日期：2026-11-03
+
+说明：用户名与链接均为本人在用的真实账号。

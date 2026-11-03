@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtualenv
+.venv/
+venv/
+env/
+
+# pytest / mypy / coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 本项目运行产物（示例产物已提交到 examples/sample_output/，这里只挡用户自己跑出来的）
+md_sorter_output/

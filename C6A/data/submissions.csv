@@ -1,0 +1,86 @@
+﻿学生,拼音,专业,GitHub,挑战编号,挑战标题,提交时间,状态,完成度,缺失项,达到Level,备注
+阮依涵,ruanyihan,软件工程,ruanyihan-sias,C1A,AI 工具上手与 Prompt 基础,2026-10-14T20:57:00+08:00,complete,1.0,,3,文件齐全
+阮依涵,ruanyihan,软件工程,ruanyihan-sias,C4B,文章写作与排版,2026-09-28T09:01:00+08:00,complete,1.0,,2,文件齐全
+阮依涵,ruanyihan,软件工程,ruanyihan-sias,C2A,个人方案设计 Proposal,2026-10-03T18:01:00+08:00,partial,1.0,,3,文件齐全
+阮依涵,ruanyihan,软件工程,ruanyihan-sias,C4D,数据可视化作品,2026-10-08T13:51:00+08:00,missing,0.0,dashboard.html|AI日志.md|拿来说明.md,0,缺失：dashboard.html；缺失：AI日志.md；缺失：拿来说明.md
+阮依涵,ruanyihan,软件工程,ruanyihan-sias,C4C,作业自动求解与排版,2026-10-19T21:10:00+08:00,partial,0.25,skill.md|output.pdf|AI日志.md,1,缺失：skill.md；缺失：output.pdf；缺失：AI日志.md
+阮依涵,ruanyihan,软件工程,ruanyihan-sias,C6A,提交数据仪表盘,2026-09-25T10:22:00+08:00,partial,1.0,,3,文件齐全
+李思远,lisiyuan,计算机科学,lsiyuan-2026,C6A,提交数据仪表盘,2026-10-07T12:45:00+08:00,complete,1.0,,3,文件齐全
+李思远,lisiyuan,计算机科学,lsiyuan-2026,C4B,文章写作与排版,2026-09-15T21:18:00+08:00,missing,0.0,article.html|AI日志.md,0,缺失：article.html；缺失：AI日志.md
+李思远,lisiyuan,计算机科学,lsiyuan-2026,C4D,数据可视化作品,2026-10-25T12:55:00+08:00,complete,1.0,,2,文件齐全
+李思远,lisiyuan,计算机科学,lsiyuan-2026,C4C,作业自动求解与排版,2026-09-30T19:53:00+08:00,complete,1.0,,2,文件齐全
+李思远,lisiyuan,计算机科学,lsiyuan-2026,C5A,项目复盘与 AAR,2026-09-23T12:42:00+08:00,complete,1.0,,3,文件齐全
+李思远,lisiyuan,计算机科学,lsiyuan-2026,C3A,技能包 Skill 开发,2026-10-12T10:38:00+08:00,partial,0.67,验证报告.md,2,缺失：验证报告.md
+张雨晴,zhangyuqing,软件工程,yqzhang-ai,C4C,作业自动求解与排版,2026-09-05T12:58:00+08:00,missing,0.0,skill.md|output.pdf|验证报告.md|AI日志.md,0,缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md
+张雨晴,zhangyuqing,软件工程,yqzhang-ai,C1A,AI 工具上手与 Prompt 基础,2026-10-27T20:20:00+08:00,complete,1.0,,3,文件齐全
+张雨晴,zhangyuqing,软件工程,yqzhang-ai,C2A,个人方案设计 Proposal,2026-09-26T19:29:00+08:00,complete,1.0,,2,文件齐全
+张雨晴,zhangyuqing,软件工程,yqzhang-ai,C5A,项目复盘与 AAR,2026-09-16T20:35:00+08:00,complete,1.0,,3,文件齐全
+张雨晴,zhangyuqing,软件工程,yqzhang-ai,C3A,技能包 Skill 开发,2026-10-08T15:57:00+08:00,partial,0.33,skill.md|AI日志.md,3,缺失：skill.md；缺失：AI日志.md
+张雨晴,zhangyuqing,软件工程,yqzhang-ai,C4A,C4A 评审技能,2026-09-06T21:03:00+08:00,missing,0.0,评审报告.md|AI日志.md|拿来说明.md,0,缺失：评审报告.md；缺失：AI日志.md；缺失：拿来说明.md
+张雨晴,zhangyuqing,软件工程,yqzhang-ai,C4D,数据可视化作品,2026-09-10T19:10:00+08:00,partial,0.33,AI日志.md|拿来说明.md,3,缺失：AI日志.md；缺失：拿来说明.md
+陈浩然,chenhaoran,数据科学,hrchen-ds,C6A,提交数据仪表盘,2026-09-08T13:27:00+08:00,complete,1.0,,1,文件齐全
+陈浩然,chenhaoran,数据科学,hrchen-ds,C1A,AI 工具上手与 Prompt 基础,2026-10-17T20:16:00+08:00,missing,0.0,方案设计.md|AI日志.md|拿来说明.md,0,缺失：方案设计.md；缺失：AI日志.md；缺失：拿来说明.md
+陈浩然,chenhaoran,数据科学,hrchen-ds,C4C,作业自动求解与排版,2026-10-19T11:32:00+08:00,missing,0.0,skill.md|output.pdf|验证报告.md|AI日志.md,0,缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md
+陈浩然,chenhaoran,数据科学,hrchen-ds,C4D,数据可视化作品,2026-10-26T19:19:00+08:00,partial,0.33,AI日志.md|拿来说明.md,2,缺失：AI日志.md；缺失：拿来说明.md
+陈浩然,chenhaoran,数据科学,hrchen-ds,C5A,项目复盘与 AAR,2026-10-05T21:59:00+08:00,complete,1.0,,1,文件齐全
+陈浩然,chenhaoran,数据科学,hrchen-ds,C3A,技能包 Skill 开发,2026-10-09T14:31:00+08:00,complete,1.0,,2,文件齐全
+陈浩然,chenhaoran,数据科学,hrchen-ds,C4A,C4A 评审技能,2026-10-27T22:51:00+08:00,complete,1.0,,1,文件齐全
+陈浩然,chenhaoran,数据科学,hrchen-ds,C2A,个人方案设计 Proposal,2026-09-16T18:05:00+08:00,complete,1.0,,3,文件齐全
+刘思彤,liusitong,软件工程,sitonliu,C6A,提交数据仪表盘,2026-09-17T17:55:00+08:00,partial,1.0,,3,文件齐全
+刘思彤,liusitong,软件工程,sitonliu,C3A,技能包 Skill 开发,2026-09-20T15:42:00+08:00,partial,0.67,AI日志.md,2,缺失：AI日志.md
+刘思彤,liusitong,软件工程,sitonliu,C2A,个人方案设计 Proposal,2026-09-05T14:01:00+08:00,partial,0.0,proposal.md|AI日志.md|拿来说明.md,3,缺失：proposal.md；缺失：AI日志.md；缺失：拿来说明.md
+刘思彤,liusitong,软件工程,sitonliu,C4C,作业自动求解与排版,2026-09-04T12:04:00+08:00,missing,0.0,skill.md|output.pdf|验证报告.md|AI日志.md,0,缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md
+刘思彤,liusitong,软件工程,sitonliu,C4A,C4A 评审技能,2026-10-26T14:04:00+08:00,complete,1.0,,2,文件齐全
+刘思彤,liusitong,软件工程,sitonliu,C4D,数据可视化作品,2026-10-13T16:13:00+08:00,complete,1.0,,3,文件齐全
+杨子墨,yangzimo,人工智能,zimo-yang,C4A,C4A 评审技能,2026-09-28T15:29:00+08:00,missing,0.0,评审报告.md|AI日志.md|拿来说明.md,0,缺失：评审报告.md；缺失：AI日志.md；缺失：拿来说明.md
+杨子墨,yangzimo,人工智能,zimo-yang,C5A,项目复盘与 AAR,2026-09-04T19:41:00+08:00,missing,0.0,AAR.md|AI日志.md,0,缺失：AAR.md；缺失：AI日志.md
+杨子墨,yangzimo,人工智能,zimo-yang,C4D,数据可视化作品,2026-09-07T09:25:00+08:00,partial,0.33,AI日志.md|拿来说明.md,3,缺失：AI日志.md；缺失：拿来说明.md
+杨子墨,yangzimo,人工智能,zimo-yang,C6A,提交数据仪表盘,2026-09-29T11:27:00+08:00,complete,1.0,,3,文件齐全
+杨子墨,yangzimo,人工智能,zimo-yang,C2A,个人方案设计 Proposal,2026-09-16T22:59:00+08:00,complete,1.0,,4,文件齐全
+杨子墨,yangzimo,人工智能,zimo-yang,C1A,AI 工具上手与 Prompt 基础,2026-10-26T22:35:00+08:00,complete,1.0,,3,文件齐全
+杨子墨,yangzimo,人工智能,zimo-yang,C4C,作业自动求解与排版,2026-10-05T22:00:00+08:00,missing,0.0,skill.md|output.pdf|验证报告.md|AI日志.md,0,缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md
+杨子墨,yangzimo,人工智能,zimo-yang,C4B,文章写作与排版,2026-10-30T21:54:00+08:00,complete,1.0,,3,文件齐全
+杨子墨,yangzimo,人工智能,zimo-yang,C3A,技能包 Skill 开发,2026-10-02T16:13:00+08:00,missing,0.0,skill.md|验证报告.md|AI日志.md,0,缺失：skill.md；缺失：验证报告.md；缺失：AI日志.md
+赵欣怡,zhaoxinyi,计算机科学,xinyi-zhao,C3A,技能包 Skill 开发,2026-09-19T15:44:00+08:00,missing,0.0,skill.md|验证报告.md|AI日志.md,0,缺失：skill.md；缺失：验证报告.md；缺失：AI日志.md
+赵欣怡,zhaoxinyi,计算机科学,xinyi-zhao,C4D,数据可视化作品,2026-10-21T17:42:00+08:00,partial,0.33,dashboard.html|AI日志.md,3,缺失：dashboard.html；缺失：AI日志.md
+赵欣怡,zhaoxinyi,计算机科学,xinyi-zhao,C1A,AI 工具上手与 Prompt 基础,2026-10-18T17:03:00+08:00,partial,0.67,方案设计.md,4,缺失：方案设计.md
+赵欣怡,zhaoxinyi,计算机科学,xinyi-zhao,C4A,C4A 评审技能,2026-10-04T11:03:00+08:00,missing,0.0,评审报告.md|AI日志.md|拿来说明.md,0,缺失：评审报告.md；缺失：AI日志.md；缺失：拿来说明.md
+赵欣怡,zhaoxinyi,计算机科学,xinyi-zhao,C6A,提交数据仪表盘,2026-09-06T22:11:00+08:00,complete,1.0,,1,文件齐全
+赵欣怡,zhaoxinyi,计算机科学,xinyi-zhao,C4C,作业自动求解与排版,2026-10-14T22:15:00+08:00,complete,1.0,,3,文件齐全
+周泽宇,zhouzeyu,软件工程,zeyu-zhou,C1A,AI 工具上手与 Prompt 基础,2026-09-14T19:45:00+08:00,complete,1.0,,2,文件齐全
+周泽宇,zhouzeyu,软件工程,zeyu-zhou,C2A,个人方案设计 Proposal,2026-09-26T11:42:00+08:00,partial,1.0,,1,文件齐全
+周泽宇,zhouzeyu,软件工程,zeyu-zhou,C4A,C4A 评审技能,2026-09-30T18:36:00+08:00,missing,0.0,评审报告.md|AI日志.md|拿来说明.md,0,缺失：评审报告.md；缺失：AI日志.md；缺失：拿来说明.md
+周泽宇,zhouzeyu,软件工程,zeyu-zhou,C4C,作业自动求解与排版,2026-09-05T17:13:00+08:00,complete,1.0,,2,文件齐全
+周泽宇,zhouzeyu,软件工程,zeyu-zhou,C4B,文章写作与排版,2026-10-30T14:56:00+08:00,complete,1.0,,2,文件齐全
+周泽宇,zhouzeyu,软件工程,zeyu-zhou,C3A,技能包 Skill 开发,2026-09-24T13:10:00+08:00,complete,1.0,,3,文件齐全
+周泽宇,zhouzeyu,软件工程,zeyu-zhou,C5A,项目复盘与 AAR,2026-10-16T13:39:00+08:00,missing,0.0,AAR.md|AI日志.md,0,缺失：AAR.md；缺失：AI日志.md
+吴佳琪,wu jiaqi,数据科学,jqwu-ds,C6A,提交数据仪表盘,2026-09-08T10:47:00+08:00,partial,0.5,report.xlsx|拿来说明.md,3,缺失：report.xlsx；缺失：拿来说明.md
+吴佳琪,wu jiaqi,数据科学,jqwu-ds,C4B,文章写作与排版,2026-10-25T13:32:00+08:00,complete,1.0,,4,文件齐全
+吴佳琪,wu jiaqi,数据科学,jqwu-ds,C4C,作业自动求解与排版,2026-09-04T10:40:00+08:00,complete,1.0,,2,文件齐全
+吴佳琪,wu jiaqi,数据科学,jqwu-ds,C1A,AI 工具上手与 Prompt 基础,2026-09-03T09:21:00+08:00,partial,0.67,AI日志.md,3,缺失：AI日志.md
+吴佳琪,wu jiaqi,数据科学,jqwu-ds,C2A,个人方案设计 Proposal,2026-10-16T15:35:00+08:00,complete,1.0,,1,文件齐全
+吴佳琪,wu jiaqi,数据科学,jqwu-ds,C3A,技能包 Skill 开发,2026-10-31T20:57:00+08:00,complete,1.0,,1,文件齐全
+郑博文,zhengbowen,人工智能,bwzheng-ai,C6A,提交数据仪表盘,2026-10-28T14:13:00+08:00,partial,0.75,dashboard/,3,缺失：dashboard/
+郑博文,zhengbowen,人工智能,bwzheng-ai,C3A,技能包 Skill 开发,2026-10-18T11:59:00+08:00,missing,0.0,skill.md|验证报告.md|AI日志.md,0,缺失：skill.md；缺失：验证报告.md；缺失：AI日志.md
+郑博文,zhengbowen,人工智能,bwzheng-ai,C4A,C4A 评审技能,2026-10-26T11:51:00+08:00,partial,0.67,AI日志.md,2,缺失：AI日志.md
+郑博文,zhengbowen,人工智能,bwzheng-ai,C2A,个人方案设计 Proposal,2026-10-21T15:51:00+08:00,partial,0.33,AI日志.md|拿来说明.md,3,缺失：AI日志.md；缺失：拿来说明.md
+郑博文,zhengbowen,人工智能,bwzheng-ai,C1A,AI 工具上手与 Prompt 基础,2026-09-07T15:55:00+08:00,complete,1.0,,3,文件齐全
+郑博文,zhengbowen,人工智能,bwzheng-ai,C5A,项目复盘与 AAR,2026-09-15T12:52:00+08:00,missing,0.0,AAR.md|AI日志.md,0,缺失：AAR.md；缺失：AI日志.md
+郑博文,zhengbowen,人工智能,bwzheng-ai,C4C,作业自动求解与排版,2026-09-23T13:52:00+08:00,partial,0.0,skill.md|output.pdf|验证报告.md|AI日志.md,4,缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md
+郑博文,zhengbowen,人工智能,bwzheng-ai,C4B,文章写作与排版,2026-09-05T21:17:00+08:00,complete,1.0,,3,文件齐全
+孙一诺,sunyinuo,软件工程,yinuo-sun,C6A,提交数据仪表盘,2026-09-07T18:27:00+08:00,complete,1.0,,4,文件齐全
+孙一诺,sunyinuo,软件工程,yinuo-sun,C4C,作业自动求解与排版,2026-09-21T15:38:00+08:00,missing,0.0,skill.md|output.pdf|验证报告.md|AI日志.md,0,缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md
+孙一诺,sunyinuo,软件工程,yinuo-sun,C1A,AI 工具上手与 Prompt 基础,2026-09-08T15:57:00+08:00,partial,0.33,方案设计.md|拿来说明.md,4,缺失：方案设计.md；缺失：拿来说明.md
+孙一诺,sunyinuo,软件工程,yinuo-sun,C4D,数据可视化作品,2026-10-05T19:46:00+08:00,missing,0.0,dashboard.html|AI日志.md|拿来说明.md,0,缺失：dashboard.html；缺失：AI日志.md；缺失：拿来说明.md
+孙一诺,sunyinuo,软件工程,yinuo-sun,C3A,技能包 Skill 开发,2026-10-18T19:12:00+08:00,complete,1.0,,1,文件齐全
+孙一诺,sunyinuo,软件工程,yinuo-sun,C2A,个人方案设计 Proposal,2026-10-31T19:58:00+08:00,complete,1.0,,2,文件齐全
+孙一诺,sunyinuo,软件工程,yinuo-sun,C4B,文章写作与排版,2026-10-13T22:07:00+08:00,partial,0.0,article.html|AI日志.md,3,缺失：article.html；缺失：AI日志.md
+孙一诺,sunyinuo,软件工程,yinuo-sun,C4A,C4A 评审技能,2026-09-21T15:44:00+08:00,complete,1.0,,2,文件齐全
+孙一诺,sunyinuo,软件工程,yinuo-sun,C5A,项目复盘与 AAR,2026-09-13T15:42:00+08:00,missing,0.0,AAR.md|AI日志.md,0,缺失：AAR.md；缺失：AI日志.md
+马晨曦,machenxi,计算机科学,chenxi-ma,C4B,文章写作与排版,2026-09-28T21:37:00+08:00,partial,0.5,article.html,3,缺失：article.html
+马晨曦,machenxi,计算机科学,chenxi-ma,C4D,数据可视化作品,2026-09-14T17:30:00+08:00,partial,1.0,,2,文件齐全
+马晨曦,machenxi,计算机科学,chenxi-ma,C6A,提交数据仪表盘,2026-10-03T19:40:00+08:00,partial,0.25,report.xlsx|AI日志.md|拿来说明.md,4,缺失：report.xlsx；缺失：AI日志.md；缺失：拿来说明.md
+马晨曦,machenxi,计算机科学,chenxi-ma,C1A,AI 工具上手与 Prompt 基础,2026-09-13T11:01:00+08:00,complete,1.0,,3,文件齐全
+马晨曦,machenxi,计算机科学,chenxi-ma,C3A,技能包 Skill 开发,2026-10-10T22:49:00+08:00,complete,1.0,,3,文件齐全
+马晨曦,machenxi,计算机科学,chenxi-ma,C5A,项目复盘与 AAR,2026-10-27T19:36:00+08:00,complete,1.0,,3,文件齐全
+马晨曦,machenxi,计算机科学,chenxi-ma,C4C,作业自动求解与排版,2026-09-25T16:25:00+08:00,complete,1.0,,3,文件齐全

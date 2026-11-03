@@ -1,0 +1,3324 @@
+window.DASHBOARD_DATA = {
+  "generated_at": "2026-11-01T03:52:19",
+  "is_mock_data": true,
+  "note": "本数据为模拟数据，脚本与流程可一键复用真实数据（见教学说明.md）",
+  "challenges": [
+    {
+      "id": "C1A",
+      "title": "AI 工具上手与 Prompt 基础",
+      "required_files": [
+        "方案设计.md",
+        "AI日志.md",
+        "拿来说明.md"
+      ]
+    },
+    {
+      "id": "C2A",
+      "title": "个人方案设计 Proposal",
+      "required_files": [
+        "proposal.md",
+        "AI日志.md",
+        "拿来说明.md"
+      ]
+    },
+    {
+      "id": "C3A",
+      "title": "技能包 Skill 开发",
+      "required_files": [
+        "skill.md",
+        "验证报告.md",
+        "AI日志.md"
+      ]
+    },
+    {
+      "id": "C4A",
+      "title": "C4A 评审技能",
+      "required_files": [
+        "评审报告.md",
+        "AI日志.md",
+        "拿来说明.md"
+      ]
+    },
+    {
+      "id": "C4B",
+      "title": "文章写作与排版",
+      "required_files": [
+        "article.html",
+        "AI日志.md"
+      ]
+    },
+    {
+      "id": "C4C",
+      "title": "作业自动求解与排版",
+      "required_files": [
+        "skill.md",
+        "output.pdf",
+        "验证报告.md",
+        "AI日志.md"
+      ]
+    },
+    {
+      "id": "C4D",
+      "title": "数据可视化作品",
+      "required_files": [
+        "dashboard.html",
+        "AI日志.md",
+        "拿来说明.md"
+      ]
+    },
+    {
+      "id": "C5A",
+      "title": "项目复盘与 AAR",
+      "required_files": [
+        "AAR.md",
+        "AI日志.md"
+      ]
+    },
+    {
+      "id": "C6A",
+      "title": "提交数据仪表盘",
+      "required_files": [
+        "report.xlsx",
+        "dashboard/",
+        "AI日志.md",
+        "拿来说明.md"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "student": {
+        "name": "阮依涵",
+        "pinyin": "ruanyihan",
+        "major": "软件工程",
+        "github": "ruanyihan-sias"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-10-14T20:57:00+08:00",
+      "files": [
+        {
+          "filename": "ruanyihan_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "ruanyihan_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "ruanyihan_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "阮依涵",
+        "pinyin": "ruanyihan",
+        "major": "软件工程",
+        "github": "ruanyihan-sias"
+      },
+      "challenge": "C4B",
+      "challenge_title": "文章写作与排版",
+      "submitted_at": "2026-09-28T09:01:00+08:00",
+      "files": [
+        {
+          "filename": "ruanyihan_C4B_article.html",
+          "category": "article",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "ruanyihan_C4B_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "阮依涵",
+        "pinyin": "ruanyihan",
+        "major": "软件工程",
+        "github": "ruanyihan-sias"
+      },
+      "challenge": "C2A",
+      "challenge_title": "个人方案设计 Proposal",
+      "submitted_at": "2026-10-03T18:01:00+08:00",
+      "files": [
+        {
+          "filename": "ruanyihan_C2A_proposal.md",
+          "category": "proposal",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "ruanyihan_C2A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "ruanyihan_C2A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "阮依涵",
+        "pinyin": "ruanyihan",
+        "major": "软件工程",
+        "github": "ruanyihan-sias"
+      },
+      "challenge": "C4D",
+      "challenge_title": "数据可视化作品",
+      "submitted_at": "2026-10-08T13:51:00+08:00",
+      "files": [
+        {
+          "filename": "ruanyihan_C4D_dashboard.html",
+          "category": "dashboard",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "ruanyihan_C4D_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "ruanyihan_C4D_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "dashboard.html",
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：dashboard.html；缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "阮依涵",
+        "pinyin": "ruanyihan",
+        "major": "软件工程",
+        "github": "ruanyihan-sias"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-10-19T21:10:00+08:00",
+      "files": [
+        {
+          "filename": "ruanyihan_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "ruanyihan_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "ruanyihan_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "ruanyihan_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.25,
+      "missing": [
+        "skill.md",
+        "output.pdf",
+        "AI日志.md"
+      ],
+      "level_achieved": 1,
+      "notes": "缺失：skill.md；缺失：output.pdf；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "阮依涵",
+        "pinyin": "ruanyihan",
+        "major": "软件工程",
+        "github": "ruanyihan-sias"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-09-25T10:22:00+08:00",
+      "files": [
+        {
+          "filename": "ruanyihan_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "ruanyihan_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "ruanyihan_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "ruanyihan_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "李思远",
+        "pinyin": "lisiyuan",
+        "major": "计算机科学",
+        "github": "lsiyuan-2026"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-10-07T12:45:00+08:00",
+      "files": [
+        {
+          "filename": "lisiyuan_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "李思远",
+        "pinyin": "lisiyuan",
+        "major": "计算机科学",
+        "github": "lsiyuan-2026"
+      },
+      "challenge": "C4B",
+      "challenge_title": "文章写作与排版",
+      "submitted_at": "2026-09-15T21:18:00+08:00",
+      "files": [
+        {
+          "filename": "lisiyuan_C4B_article.html",
+          "category": "article",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "lisiyuan_C4B_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "article.html",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：article.html；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "李思远",
+        "pinyin": "lisiyuan",
+        "major": "计算机科学",
+        "github": "lsiyuan-2026"
+      },
+      "challenge": "C4D",
+      "challenge_title": "数据可视化作品",
+      "submitted_at": "2026-10-25T12:55:00+08:00",
+      "files": [
+        {
+          "filename": "lisiyuan_C4D_dashboard.html",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C4D_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C4D_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "李思远",
+        "pinyin": "lisiyuan",
+        "major": "计算机科学",
+        "github": "lsiyuan-2026"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-09-30T19:53:00+08:00",
+      "files": [
+        {
+          "filename": "lisiyuan_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "李思远",
+        "pinyin": "lisiyuan",
+        "major": "计算机科学",
+        "github": "lsiyuan-2026"
+      },
+      "challenge": "C5A",
+      "challenge_title": "项目复盘与 AAR",
+      "submitted_at": "2026-09-23T12:42:00+08:00",
+      "files": [
+        {
+          "filename": "lisiyuan_C5A_AAR.md",
+          "category": "AAR",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C5A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "李思远",
+        "pinyin": "lisiyuan",
+        "major": "计算机科学",
+        "github": "lsiyuan-2026"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-10-12T10:38:00+08:00",
+      "files": [
+        {
+          "filename": "lisiyuan_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "lisiyuan_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "lisiyuan_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.67,
+      "missing": [
+        "验证报告.md"
+      ],
+      "level_achieved": 2,
+      "notes": "缺失：验证报告.md"
+    },
+    {
+      "student": {
+        "name": "张雨晴",
+        "pinyin": "zhangyuqing",
+        "major": "软件工程",
+        "github": "yqzhang-ai"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-09-05T12:58:00+08:00",
+      "files": [
+        {
+          "filename": "zhangyuqing_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhangyuqing_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhangyuqing_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhangyuqing_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "skill.md",
+        "output.pdf",
+        "验证报告.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "张雨晴",
+        "pinyin": "zhangyuqing",
+        "major": "软件工程",
+        "github": "yqzhang-ai"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-10-27T20:20:00+08:00",
+      "files": [
+        {
+          "filename": "zhangyuqing_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhangyuqing_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhangyuqing_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "张雨晴",
+        "pinyin": "zhangyuqing",
+        "major": "软件工程",
+        "github": "yqzhang-ai"
+      },
+      "challenge": "C2A",
+      "challenge_title": "个人方案设计 Proposal",
+      "submitted_at": "2026-09-26T19:29:00+08:00",
+      "files": [
+        {
+          "filename": "zhangyuqing_C2A_proposal.md",
+          "category": "proposal",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhangyuqing_C2A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhangyuqing_C2A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "张雨晴",
+        "pinyin": "zhangyuqing",
+        "major": "软件工程",
+        "github": "yqzhang-ai"
+      },
+      "challenge": "C5A",
+      "challenge_title": "项目复盘与 AAR",
+      "submitted_at": "2026-09-16T20:35:00+08:00",
+      "files": [
+        {
+          "filename": "zhangyuqing_C5A_AAR.md",
+          "category": "AAR",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhangyuqing_C5A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "张雨晴",
+        "pinyin": "zhangyuqing",
+        "major": "软件工程",
+        "github": "yqzhang-ai"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-10-08T15:57:00+08:00",
+      "files": [
+        {
+          "filename": "zhangyuqing_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhangyuqing_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhangyuqing_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.33,
+      "missing": [
+        "skill.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：skill.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "张雨晴",
+        "pinyin": "zhangyuqing",
+        "major": "软件工程",
+        "github": "yqzhang-ai"
+      },
+      "challenge": "C4A",
+      "challenge_title": "C4A 评审技能",
+      "submitted_at": "2026-09-06T21:03:00+08:00",
+      "files": [
+        {
+          "filename": "zhangyuqing_C4A_评审报告.md",
+          "category": "评审报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhangyuqing_C4A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhangyuqing_C4A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "评审报告.md",
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：评审报告.md；缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "张雨晴",
+        "pinyin": "zhangyuqing",
+        "major": "软件工程",
+        "github": "yqzhang-ai"
+      },
+      "challenge": "C4D",
+      "challenge_title": "数据可视化作品",
+      "submitted_at": "2026-09-10T19:10:00+08:00",
+      "files": [
+        {
+          "filename": "zhangyuqing_C4D_dashboard.html",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhangyuqing_C4D_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhangyuqing_C4D_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.33,
+      "missing": [
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "陈浩然",
+        "pinyin": "chenhaoran",
+        "major": "数据科学",
+        "github": "hrchen-ds"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-09-08T13:27:00+08:00",
+      "files": [
+        {
+          "filename": "chenhaoran_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 1,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "陈浩然",
+        "pinyin": "chenhaoran",
+        "major": "数据科学",
+        "github": "hrchen-ds"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-10-17T20:16:00+08:00",
+      "files": [
+        {
+          "filename": "chenhaoran_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "chenhaoran_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "chenhaoran_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "方案设计.md",
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：方案设计.md；缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "陈浩然",
+        "pinyin": "chenhaoran",
+        "major": "数据科学",
+        "github": "hrchen-ds"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-10-19T11:32:00+08:00",
+      "files": [
+        {
+          "filename": "chenhaoran_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "chenhaoran_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "chenhaoran_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "chenhaoran_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "skill.md",
+        "output.pdf",
+        "验证报告.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "陈浩然",
+        "pinyin": "chenhaoran",
+        "major": "数据科学",
+        "github": "hrchen-ds"
+      },
+      "challenge": "C4D",
+      "challenge_title": "数据可视化作品",
+      "submitted_at": "2026-10-26T19:19:00+08:00",
+      "files": [
+        {
+          "filename": "chenhaoran_C4D_dashboard.html",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C4D_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "chenhaoran_C4D_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.33,
+      "missing": [
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 2,
+      "notes": "缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "陈浩然",
+        "pinyin": "chenhaoran",
+        "major": "数据科学",
+        "github": "hrchen-ds"
+      },
+      "challenge": "C5A",
+      "challenge_title": "项目复盘与 AAR",
+      "submitted_at": "2026-10-05T21:59:00+08:00",
+      "files": [
+        {
+          "filename": "chenhaoran_C5A_AAR.md",
+          "category": "AAR",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C5A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 1,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "陈浩然",
+        "pinyin": "chenhaoran",
+        "major": "数据科学",
+        "github": "hrchen-ds"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-10-09T14:31:00+08:00",
+      "files": [
+        {
+          "filename": "chenhaoran_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "陈浩然",
+        "pinyin": "chenhaoran",
+        "major": "数据科学",
+        "github": "hrchen-ds"
+      },
+      "challenge": "C4A",
+      "challenge_title": "C4A 评审技能",
+      "submitted_at": "2026-10-27T22:51:00+08:00",
+      "files": [
+        {
+          "filename": "chenhaoran_C4A_评审报告.md",
+          "category": "评审报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C4A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C4A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 1,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "陈浩然",
+        "pinyin": "chenhaoran",
+        "major": "数据科学",
+        "github": "hrchen-ds"
+      },
+      "challenge": "C2A",
+      "challenge_title": "个人方案设计 Proposal",
+      "submitted_at": "2026-09-16T18:05:00+08:00",
+      "files": [
+        {
+          "filename": "chenhaoran_C2A_proposal.md",
+          "category": "proposal",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C2A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "chenhaoran_C2A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "刘思彤",
+        "pinyin": "liusitong",
+        "major": "软件工程",
+        "github": "sitonliu"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-09-17T17:55:00+08:00",
+      "files": [
+        {
+          "filename": "liusitong_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "liusitong_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "liusitong_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "liusitong_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "刘思彤",
+        "pinyin": "liusitong",
+        "major": "软件工程",
+        "github": "sitonliu"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-09-20T15:42:00+08:00",
+      "files": [
+        {
+          "filename": "liusitong_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "liusitong_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "liusitong_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.67,
+      "missing": [
+        "AI日志.md"
+      ],
+      "level_achieved": 2,
+      "notes": "缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "刘思彤",
+        "pinyin": "liusitong",
+        "major": "软件工程",
+        "github": "sitonliu"
+      },
+      "challenge": "C2A",
+      "challenge_title": "个人方案设计 Proposal",
+      "submitted_at": "2026-09-05T14:01:00+08:00",
+      "files": [
+        {
+          "filename": "liusitong_C2A_proposal.md",
+          "category": "proposal",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "liusitong_C2A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "liusitong_C2A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.0,
+      "missing": [
+        "proposal.md",
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：proposal.md；缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "刘思彤",
+        "pinyin": "liusitong",
+        "major": "软件工程",
+        "github": "sitonliu"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-09-04T12:04:00+08:00",
+      "files": [
+        {
+          "filename": "liusitong_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "liusitong_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "liusitong_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "liusitong_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "skill.md",
+        "output.pdf",
+        "验证报告.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "刘思彤",
+        "pinyin": "liusitong",
+        "major": "软件工程",
+        "github": "sitonliu"
+      },
+      "challenge": "C4A",
+      "challenge_title": "C4A 评审技能",
+      "submitted_at": "2026-10-26T14:04:00+08:00",
+      "files": [
+        {
+          "filename": "liusitong_C4A_评审报告.md",
+          "category": "评审报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "liusitong_C4A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "liusitong_C4A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "刘思彤",
+        "pinyin": "liusitong",
+        "major": "软件工程",
+        "github": "sitonliu"
+      },
+      "challenge": "C4D",
+      "challenge_title": "数据可视化作品",
+      "submitted_at": "2026-10-13T16:13:00+08:00",
+      "files": [
+        {
+          "filename": "liusitong_C4D_dashboard.html",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "liusitong_C4D_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "liusitong_C4D_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "杨子墨",
+        "pinyin": "yangzimo",
+        "major": "人工智能",
+        "github": "zimo-yang"
+      },
+      "challenge": "C4A",
+      "challenge_title": "C4A 评审技能",
+      "submitted_at": "2026-09-28T15:29:00+08:00",
+      "files": [
+        {
+          "filename": "yangzimo_C4A_评审报告.md",
+          "category": "评审报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "yangzimo_C4A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "yangzimo_C4A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "评审报告.md",
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：评审报告.md；缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "杨子墨",
+        "pinyin": "yangzimo",
+        "major": "人工智能",
+        "github": "zimo-yang"
+      },
+      "challenge": "C5A",
+      "challenge_title": "项目复盘与 AAR",
+      "submitted_at": "2026-09-04T19:41:00+08:00",
+      "files": [
+        {
+          "filename": "yangzimo_C5A_AAR.md",
+          "category": "AAR",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "yangzimo_C5A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "AAR.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：AAR.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "杨子墨",
+        "pinyin": "yangzimo",
+        "major": "人工智能",
+        "github": "zimo-yang"
+      },
+      "challenge": "C4D",
+      "challenge_title": "数据可视化作品",
+      "submitted_at": "2026-09-07T09:25:00+08:00",
+      "files": [
+        {
+          "filename": "yangzimo_C4D_dashboard.html",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "yangzimo_C4D_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "yangzimo_C4D_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.33,
+      "missing": [
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "杨子墨",
+        "pinyin": "yangzimo",
+        "major": "人工智能",
+        "github": "zimo-yang"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-09-29T11:27:00+08:00",
+      "files": [
+        {
+          "filename": "yangzimo_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "yangzimo_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "yangzimo_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "yangzimo_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "杨子墨",
+        "pinyin": "yangzimo",
+        "major": "人工智能",
+        "github": "zimo-yang"
+      },
+      "challenge": "C2A",
+      "challenge_title": "个人方案设计 Proposal",
+      "submitted_at": "2026-09-16T22:59:00+08:00",
+      "files": [
+        {
+          "filename": "yangzimo_C2A_proposal.md",
+          "category": "proposal",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "yangzimo_C2A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "yangzimo_C2A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 4,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "杨子墨",
+        "pinyin": "yangzimo",
+        "major": "人工智能",
+        "github": "zimo-yang"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-10-26T22:35:00+08:00",
+      "files": [
+        {
+          "filename": "yangzimo_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "yangzimo_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "yangzimo_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "杨子墨",
+        "pinyin": "yangzimo",
+        "major": "人工智能",
+        "github": "zimo-yang"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-10-05T22:00:00+08:00",
+      "files": [
+        {
+          "filename": "yangzimo_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "yangzimo_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "yangzimo_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "yangzimo_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "skill.md",
+        "output.pdf",
+        "验证报告.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "杨子墨",
+        "pinyin": "yangzimo",
+        "major": "人工智能",
+        "github": "zimo-yang"
+      },
+      "challenge": "C4B",
+      "challenge_title": "文章写作与排版",
+      "submitted_at": "2026-10-30T21:54:00+08:00",
+      "files": [
+        {
+          "filename": "yangzimo_C4B_article.html",
+          "category": "article",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "yangzimo_C4B_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "杨子墨",
+        "pinyin": "yangzimo",
+        "major": "人工智能",
+        "github": "zimo-yang"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-10-02T16:13:00+08:00",
+      "files": [
+        {
+          "filename": "yangzimo_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "yangzimo_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "yangzimo_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "skill.md",
+        "验证报告.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：skill.md；缺失：验证报告.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "赵欣怡",
+        "pinyin": "zhaoxinyi",
+        "major": "计算机科学",
+        "github": "xinyi-zhao"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-09-19T15:44:00+08:00",
+      "files": [
+        {
+          "filename": "zhaoxinyi_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhaoxinyi_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhaoxinyi_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "skill.md",
+        "验证报告.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：skill.md；缺失：验证报告.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "赵欣怡",
+        "pinyin": "zhaoxinyi",
+        "major": "计算机科学",
+        "github": "xinyi-zhao"
+      },
+      "challenge": "C4D",
+      "challenge_title": "数据可视化作品",
+      "submitted_at": "2026-10-21T17:42:00+08:00",
+      "files": [
+        {
+          "filename": "zhaoxinyi_C4D_dashboard.html",
+          "category": "dashboard",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhaoxinyi_C4D_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhaoxinyi_C4D_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.33,
+      "missing": [
+        "dashboard.html",
+        "AI日志.md"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：dashboard.html；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "赵欣怡",
+        "pinyin": "zhaoxinyi",
+        "major": "计算机科学",
+        "github": "xinyi-zhao"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-10-18T17:03:00+08:00",
+      "files": [
+        {
+          "filename": "zhaoxinyi_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhaoxinyi_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhaoxinyi_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.67,
+      "missing": [
+        "方案设计.md"
+      ],
+      "level_achieved": 4,
+      "notes": "缺失：方案设计.md"
+    },
+    {
+      "student": {
+        "name": "赵欣怡",
+        "pinyin": "zhaoxinyi",
+        "major": "计算机科学",
+        "github": "xinyi-zhao"
+      },
+      "challenge": "C4A",
+      "challenge_title": "C4A 评审技能",
+      "submitted_at": "2026-10-04T11:03:00+08:00",
+      "files": [
+        {
+          "filename": "zhaoxinyi_C4A_评审报告.md",
+          "category": "评审报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhaoxinyi_C4A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhaoxinyi_C4A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "评审报告.md",
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：评审报告.md；缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "赵欣怡",
+        "pinyin": "zhaoxinyi",
+        "major": "计算机科学",
+        "github": "xinyi-zhao"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-09-06T22:11:00+08:00",
+      "files": [
+        {
+          "filename": "zhaoxinyi_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhaoxinyi_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhaoxinyi_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhaoxinyi_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 1,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "赵欣怡",
+        "pinyin": "zhaoxinyi",
+        "major": "计算机科学",
+        "github": "xinyi-zhao"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-10-14T22:15:00+08:00",
+      "files": [
+        {
+          "filename": "zhaoxinyi_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhaoxinyi_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhaoxinyi_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhaoxinyi_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "周泽宇",
+        "pinyin": "zhouzeyu",
+        "major": "软件工程",
+        "github": "zeyu-zhou"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-09-14T19:45:00+08:00",
+      "files": [
+        {
+          "filename": "zhouzeyu_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "周泽宇",
+        "pinyin": "zhouzeyu",
+        "major": "软件工程",
+        "github": "zeyu-zhou"
+      },
+      "challenge": "C2A",
+      "challenge_title": "个人方案设计 Proposal",
+      "submitted_at": "2026-09-26T11:42:00+08:00",
+      "files": [
+        {
+          "filename": "zhouzeyu_C2A_proposal.md",
+          "category": "proposal",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C2A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C2A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 1,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "周泽宇",
+        "pinyin": "zhouzeyu",
+        "major": "软件工程",
+        "github": "zeyu-zhou"
+      },
+      "challenge": "C4A",
+      "challenge_title": "C4A 评审技能",
+      "submitted_at": "2026-09-30T18:36:00+08:00",
+      "files": [
+        {
+          "filename": "zhouzeyu_C4A_评审报告.md",
+          "category": "评审报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhouzeyu_C4A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhouzeyu_C4A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "评审报告.md",
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：评审报告.md；缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "周泽宇",
+        "pinyin": "zhouzeyu",
+        "major": "软件工程",
+        "github": "zeyu-zhou"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-09-05T17:13:00+08:00",
+      "files": [
+        {
+          "filename": "zhouzeyu_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "周泽宇",
+        "pinyin": "zhouzeyu",
+        "major": "软件工程",
+        "github": "zeyu-zhou"
+      },
+      "challenge": "C4B",
+      "challenge_title": "文章写作与排版",
+      "submitted_at": "2026-10-30T14:56:00+08:00",
+      "files": [
+        {
+          "filename": "zhouzeyu_C4B_article.html",
+          "category": "article",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C4B_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "周泽宇",
+        "pinyin": "zhouzeyu",
+        "major": "软件工程",
+        "github": "zeyu-zhou"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-09-24T13:10:00+08:00",
+      "files": [
+        {
+          "filename": "zhouzeyu_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhouzeyu_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "周泽宇",
+        "pinyin": "zhouzeyu",
+        "major": "软件工程",
+        "github": "zeyu-zhou"
+      },
+      "challenge": "C5A",
+      "challenge_title": "项目复盘与 AAR",
+      "submitted_at": "2026-10-16T13:39:00+08:00",
+      "files": [
+        {
+          "filename": "zhouzeyu_C5A_AAR.md",
+          "category": "AAR",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhouzeyu_C5A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "AAR.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：AAR.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "吴佳琪",
+        "pinyin": "wu jiaqi",
+        "major": "数据科学",
+        "github": "jqwu-ds"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-09-08T10:47:00+08:00",
+      "files": [
+        {
+          "filename": "wu jiaqi_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "wu jiaqi_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.5,
+      "missing": [
+        "report.xlsx",
+        "拿来说明.md"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：report.xlsx；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "吴佳琪",
+        "pinyin": "wu jiaqi",
+        "major": "数据科学",
+        "github": "jqwu-ds"
+      },
+      "challenge": "C4B",
+      "challenge_title": "文章写作与排版",
+      "submitted_at": "2026-10-25T13:32:00+08:00",
+      "files": [
+        {
+          "filename": "wu jiaqi_C4B_article.html",
+          "category": "article",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C4B_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 4,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "吴佳琪",
+        "pinyin": "wu jiaqi",
+        "major": "数据科学",
+        "github": "jqwu-ds"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-09-04T10:40:00+08:00",
+      "files": [
+        {
+          "filename": "wu jiaqi_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "吴佳琪",
+        "pinyin": "wu jiaqi",
+        "major": "数据科学",
+        "github": "jqwu-ds"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-09-03T09:21:00+08:00",
+      "files": [
+        {
+          "filename": "wu jiaqi_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "wu jiaqi_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.67,
+      "missing": [
+        "AI日志.md"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "吴佳琪",
+        "pinyin": "wu jiaqi",
+        "major": "数据科学",
+        "github": "jqwu-ds"
+      },
+      "challenge": "C2A",
+      "challenge_title": "个人方案设计 Proposal",
+      "submitted_at": "2026-10-16T15:35:00+08:00",
+      "files": [
+        {
+          "filename": "wu jiaqi_C2A_proposal.md",
+          "category": "proposal",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C2A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C2A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 1,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "吴佳琪",
+        "pinyin": "wu jiaqi",
+        "major": "数据科学",
+        "github": "jqwu-ds"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-10-31T20:57:00+08:00",
+      "files": [
+        {
+          "filename": "wu jiaqi_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "wu jiaqi_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 1,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "郑博文",
+        "pinyin": "zhengbowen",
+        "major": "人工智能",
+        "github": "bwzheng-ai"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-10-28T14:13:00+08:00",
+      "files": [
+        {
+          "filename": "zhengbowen_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhengbowen_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhengbowen_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhengbowen_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.75,
+      "missing": [
+        "dashboard/"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：dashboard/"
+    },
+    {
+      "student": {
+        "name": "郑博文",
+        "pinyin": "zhengbowen",
+        "major": "人工智能",
+        "github": "bwzheng-ai"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-10-18T11:59:00+08:00",
+      "files": [
+        {
+          "filename": "zhengbowen_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhengbowen_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhengbowen_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "skill.md",
+        "验证报告.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：skill.md；缺失：验证报告.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "郑博文",
+        "pinyin": "zhengbowen",
+        "major": "人工智能",
+        "github": "bwzheng-ai"
+      },
+      "challenge": "C4A",
+      "challenge_title": "C4A 评审技能",
+      "submitted_at": "2026-10-26T11:51:00+08:00",
+      "files": [
+        {
+          "filename": "zhengbowen_C4A_评审报告.md",
+          "category": "评审报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhengbowen_C4A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhengbowen_C4A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.67,
+      "missing": [
+        "AI日志.md"
+      ],
+      "level_achieved": 2,
+      "notes": "缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "郑博文",
+        "pinyin": "zhengbowen",
+        "major": "人工智能",
+        "github": "bwzheng-ai"
+      },
+      "challenge": "C2A",
+      "challenge_title": "个人方案设计 Proposal",
+      "submitted_at": "2026-10-21T15:51:00+08:00",
+      "files": [
+        {
+          "filename": "zhengbowen_C2A_proposal.md",
+          "category": "proposal",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhengbowen_C2A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhengbowen_C2A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.33,
+      "missing": [
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "郑博文",
+        "pinyin": "zhengbowen",
+        "major": "人工智能",
+        "github": "bwzheng-ai"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-09-07T15:55:00+08:00",
+      "files": [
+        {
+          "filename": "zhengbowen_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhengbowen_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhengbowen_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "郑博文",
+        "pinyin": "zhengbowen",
+        "major": "人工智能",
+        "github": "bwzheng-ai"
+      },
+      "challenge": "C5A",
+      "challenge_title": "项目复盘与 AAR",
+      "submitted_at": "2026-09-15T12:52:00+08:00",
+      "files": [
+        {
+          "filename": "zhengbowen_C5A_AAR.md",
+          "category": "AAR",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhengbowen_C5A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "AAR.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：AAR.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "郑博文",
+        "pinyin": "zhengbowen",
+        "major": "人工智能",
+        "github": "bwzheng-ai"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-09-23T13:52:00+08:00",
+      "files": [
+        {
+          "filename": "zhengbowen_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhengbowen_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhengbowen_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "zhengbowen_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.0,
+      "missing": [
+        "skill.md",
+        "output.pdf",
+        "验证报告.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 4,
+      "notes": "缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "郑博文",
+        "pinyin": "zhengbowen",
+        "major": "人工智能",
+        "github": "bwzheng-ai"
+      },
+      "challenge": "C4B",
+      "challenge_title": "文章写作与排版",
+      "submitted_at": "2026-09-05T21:17:00+08:00",
+      "files": [
+        {
+          "filename": "zhengbowen_C4B_article.html",
+          "category": "article",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "zhengbowen_C4B_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "孙一诺",
+        "pinyin": "sunyinuo",
+        "major": "软件工程",
+        "github": "yinuo-sun"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-09-07T18:27:00+08:00",
+      "files": [
+        {
+          "filename": "sunyinuo_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 4,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "孙一诺",
+        "pinyin": "sunyinuo",
+        "major": "软件工程",
+        "github": "yinuo-sun"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-09-21T15:38:00+08:00",
+      "files": [
+        {
+          "filename": "sunyinuo_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "sunyinuo_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "sunyinuo_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "sunyinuo_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "skill.md",
+        "output.pdf",
+        "验证报告.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：skill.md；缺失：output.pdf；缺失：验证报告.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "孙一诺",
+        "pinyin": "sunyinuo",
+        "major": "软件工程",
+        "github": "yinuo-sun"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-09-08T15:57:00+08:00",
+      "files": [
+        {
+          "filename": "sunyinuo_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "sunyinuo_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.33,
+      "missing": [
+        "方案设计.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 4,
+      "notes": "缺失：方案设计.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "孙一诺",
+        "pinyin": "sunyinuo",
+        "major": "软件工程",
+        "github": "yinuo-sun"
+      },
+      "challenge": "C4D",
+      "challenge_title": "数据可视化作品",
+      "submitted_at": "2026-10-05T19:46:00+08:00",
+      "files": [
+        {
+          "filename": "sunyinuo_C4D_dashboard.html",
+          "category": "dashboard",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "sunyinuo_C4D_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "sunyinuo_C4D_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "dashboard.html",
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：dashboard.html；缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "孙一诺",
+        "pinyin": "sunyinuo",
+        "major": "软件工程",
+        "github": "yinuo-sun"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-10-18T19:12:00+08:00",
+      "files": [
+        {
+          "filename": "sunyinuo_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 1,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "孙一诺",
+        "pinyin": "sunyinuo",
+        "major": "软件工程",
+        "github": "yinuo-sun"
+      },
+      "challenge": "C2A",
+      "challenge_title": "个人方案设计 Proposal",
+      "submitted_at": "2026-10-31T19:58:00+08:00",
+      "files": [
+        {
+          "filename": "sunyinuo_C2A_proposal.md",
+          "category": "proposal",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C2A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C2A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "孙一诺",
+        "pinyin": "sunyinuo",
+        "major": "软件工程",
+        "github": "yinuo-sun"
+      },
+      "challenge": "C4B",
+      "challenge_title": "文章写作与排版",
+      "submitted_at": "2026-10-13T22:07:00+08:00",
+      "files": [
+        {
+          "filename": "sunyinuo_C4B_article.html",
+          "category": "article",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "sunyinuo_C4B_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.0,
+      "missing": [
+        "article.html",
+        "AI日志.md"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：article.html；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "孙一诺",
+        "pinyin": "sunyinuo",
+        "major": "软件工程",
+        "github": "yinuo-sun"
+      },
+      "challenge": "C4A",
+      "challenge_title": "C4A 评审技能",
+      "submitted_at": "2026-09-21T15:44:00+08:00",
+      "files": [
+        {
+          "filename": "sunyinuo_C4A_评审报告.md",
+          "category": "评审报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C4A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "sunyinuo_C4A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "孙一诺",
+        "pinyin": "sunyinuo",
+        "major": "软件工程",
+        "github": "yinuo-sun"
+      },
+      "challenge": "C5A",
+      "challenge_title": "项目复盘与 AAR",
+      "submitted_at": "2026-09-13T15:42:00+08:00",
+      "files": [
+        {
+          "filename": "sunyinuo_C5A_AAR.md",
+          "category": "AAR",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "sunyinuo_C5A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "missing",
+      "completeness": 0.0,
+      "missing": [
+        "AAR.md",
+        "AI日志.md"
+      ],
+      "level_achieved": 0,
+      "notes": "缺失：AAR.md；缺失：AI日志.md"
+    },
+    {
+      "student": {
+        "name": "马晨曦",
+        "pinyin": "machenxi",
+        "major": "计算机科学",
+        "github": "chenxi-ma"
+      },
+      "challenge": "C4B",
+      "challenge_title": "文章写作与排版",
+      "submitted_at": "2026-09-28T21:37:00+08:00",
+      "files": [
+        {
+          "filename": "machenxi_C4B_article.html",
+          "category": "article",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "machenxi_C4B_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.5,
+      "missing": [
+        "article.html"
+      ],
+      "level_achieved": 3,
+      "notes": "缺失：article.html"
+    },
+    {
+      "student": {
+        "name": "马晨曦",
+        "pinyin": "machenxi",
+        "major": "计算机科学",
+        "github": "chenxi-ma"
+      },
+      "challenge": "C4D",
+      "challenge_title": "数据可视化作品",
+      "submitted_at": "2026-09-14T17:30:00+08:00",
+      "files": [
+        {
+          "filename": "machenxi_C4D_dashboard.html",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C4D_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C4D_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "partial",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 2,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "马晨曦",
+        "pinyin": "machenxi",
+        "major": "计算机科学",
+        "github": "chenxi-ma"
+      },
+      "challenge": "C6A",
+      "challenge_title": "提交数据仪表盘",
+      "submitted_at": "2026-10-03T19:40:00+08:00",
+      "files": [
+        {
+          "filename": "machenxi_C6A_report.xlsx",
+          "category": "report",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "machenxi_C6A_dashboard/",
+          "category": "dashboard",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C6A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": false
+        },
+        {
+          "filename": "machenxi_C6A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": false
+        }
+      ],
+      "status": "partial",
+      "completeness": 0.25,
+      "missing": [
+        "report.xlsx",
+        "AI日志.md",
+        "拿来说明.md"
+      ],
+      "level_achieved": 4,
+      "notes": "缺失：report.xlsx；缺失：AI日志.md；缺失：拿来说明.md"
+    },
+    {
+      "student": {
+        "name": "马晨曦",
+        "pinyin": "machenxi",
+        "major": "计算机科学",
+        "github": "chenxi-ma"
+      },
+      "challenge": "C1A",
+      "challenge_title": "AI 工具上手与 Prompt 基础",
+      "submitted_at": "2026-09-13T11:01:00+08:00",
+      "files": [
+        {
+          "filename": "machenxi_C1A_方案设计.md",
+          "category": "方案设计",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C1A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C1A_拿来说明.md",
+          "category": "拿来说明",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "马晨曦",
+        "pinyin": "machenxi",
+        "major": "计算机科学",
+        "github": "chenxi-ma"
+      },
+      "challenge": "C3A",
+      "challenge_title": "技能包 Skill 开发",
+      "submitted_at": "2026-10-10T22:49:00+08:00",
+      "files": [
+        {
+          "filename": "machenxi_C3A_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C3A_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C3A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "马晨曦",
+        "pinyin": "machenxi",
+        "major": "计算机科学",
+        "github": "chenxi-ma"
+      },
+      "challenge": "C5A",
+      "challenge_title": "项目复盘与 AAR",
+      "submitted_at": "2026-10-27T19:36:00+08:00",
+      "files": [
+        {
+          "filename": "machenxi_C5A_AAR.md",
+          "category": "AAR",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C5A_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    },
+    {
+      "student": {
+        "name": "马晨曦",
+        "pinyin": "machenxi",
+        "major": "计算机科学",
+        "github": "chenxi-ma"
+      },
+      "challenge": "C4C",
+      "challenge_title": "作业自动求解与排版",
+      "submitted_at": "2026-09-25T16:25:00+08:00",
+      "files": [
+        {
+          "filename": "machenxi_C4C_skill.md",
+          "category": "skill",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C4C_output.pdf",
+          "category": "output",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C4C_验证报告.md",
+          "category": "验证报告",
+          "required": true,
+          "present": true
+        },
+        {
+          "filename": "machenxi_C4C_AI日志.md",
+          "category": "AI日志",
+          "required": true,
+          "present": true
+        }
+      ],
+      "status": "complete",
+      "completeness": 1.0,
+      "missing": [],
+      "level_achieved": 3,
+      "notes": "文件齐全"
+    }
+  ]
+};

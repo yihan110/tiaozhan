@@ -1,0 +1,15 @@
+============================================================
+C6A 数据生成脚本运行完成
+============================================================
+输出目录      : C:\Users\asus\Doubao\chats\2026-11-01\new-chat\挑战C6A_阮依涵_提交包\data
+学生数量      : 12
+挑战数量      : 9
+提交记录条数  : 85
+  - 完整提交  : 40
+  - 部分提交  : 25
+  - 缺失提交  : 20
+JSON 文件     : C:\Users\asus\Doubao\chats\2026-11-01\new-chat\挑战C6A_阮依涵_提交包\data\submissions.json  (90180 bytes)
+CSV  文件     : C:\Users\asus\Doubao\chats\2026-11-01\new-chat\挑战C6A_阮依涵_提交包\data\submissions.csv  (13957 bytes)
+挑战元数据    : C:\Users\asus\Doubao\chats\2026-11-01\new-chat\挑战C6A_阮依涵_提交包\data\challenges.json  (1532 bytes)
+============================================================
+注意：当前为模拟数据（is_mock_data=true），替换数据源即可接入真实提交。
